@@ -1,0 +1,22 @@
+name: flutter_gen_linter
+description: A set of simple linter rules to encourage the use of flutter_gen.
+version: 1.0.0
+repository: https://github.com/bramp/flutter_gen_linter
+
+environment:
+  sdk: ^3.0.6
+
+# Add regular dependencies here.
+dependencies:
+  # we will use analyzer for inspecting Dart files
+  analyzer: '>=4.7.0 <6.0.0' # pinned to a earlier version to support flutter_gen_core
+  analyzer_plugin: ^0.11.2 
+
+  # custom_lint_builder will give us tools for writing lints
+  custom_lint: ^0.5.0
+  custom_lint_builder: ^0.5.0
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
+  
