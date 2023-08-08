@@ -6,12 +6,12 @@ While using [flutter_gen](https://pub.dev/packages/flutter_gen) I wanted to ensu
 
 ## Getting started
 
-In your `pubspec.yaml`` add:
+In your `pubspec.yaml` add:
 
 ```
 dev_dependencies:
   custom_lint: ^0.5.0
-  flutter_gen_runner_lint: ^1.0.0
+  flutter_gen_linter: ^1.0.0
 ```
 
 and create a `analysis_options.yaml` and add:

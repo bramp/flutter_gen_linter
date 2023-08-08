@@ -1,6 +1,6 @@
 name: flutter_gen_linter
 description: A set of simple linter rules to encourage the use of flutter_gen.
-version: 1.0.0
+version: 1.0.0+1
 repository: https://github.com/bramp/flutter_gen_linter
 
 environment:
