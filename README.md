@@ -24,7 +24,7 @@ analyzer:
 
 Now your IDE should show the lint warnings, like so:
 
-![Screenshot of VS Code showing a lint warning](screenshot.png)
+![Screenshot of VS Code showing a lint warning](https://raw.githubusercontent.com/bramp/flutter_gen_linter/main/screenshot.png)
 
 or you can manually run them from the command line:
 

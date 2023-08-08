@@ -1,10 +1,25 @@
 name: flutter_gen_linter
 description: A set of simple linter rules to encourage the use of flutter_gen.
-version: 1.0.0+1
+version: 1.0.0+2
 repository: https://github.com/bramp/flutter_gen_linter
 
 environment:
   sdk: ^3.0.6
+
+platforms:
+  android:
+  ios:
+  linux:
+  macos:
+  web:
+  windows:
+
+screenshots:
+  - description: 'Screenshot of VS Code showing a lint warning.'
+    path: screenshot.png
+
+topics:
+  - lints
 
 # Add regular dependencies here.
 dependencies:
